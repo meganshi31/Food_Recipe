@@ -28,7 +28,7 @@ return (
         <div className="main">
             <div className="heading">
                 <h1>Search Your Food Recipe</h1>
-                <h4>craving!! then just search click cook eat repeat..</h4>
+                <h4>Craving!! then just search click cook eat Repeat..</h4>
             </div>
             <div className="searchBox">
                 <input type="search" className="search-bar" placeholder="Search here" onChange={e=> setSearch(e.target.value)} onKeyPress={searchRecipe}/>
