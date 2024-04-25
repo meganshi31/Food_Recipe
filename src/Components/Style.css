@@ -1,0 +1,124 @@
+ @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+*{
+    padding: 0;
+    margin:0 ;
+    font-family: 'Castoro Titling', cursive;
+}
+body{
+    background-color: rgb(141, 104, 140);
+}
+.main{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+.heading h1{
+    color: whitesmoke;
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 1%;
+}
+.search-bar{
+    width: 400px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 30px;
+}
+.container{
+    width: 90%;
+    height: 40%;
+    margin: 2rem;
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 15px;
+}
+.card{
+    width: 250px;
+    border-radius: 1rem;
+    background-color: rgb(222, 222, 222);
+    padding: 7px;
+   
+}
+img{
+    width: 250px;
+    border-radius: 1rem;
+    font-size: 18px;
+    color: white;
+}
+.indexcontainer{
+  display: flex;
+  margin: 3rem;
+  letter-spacing: 1rem;
+  align-items: center;
+    
+}
+.numbox{
+    width: 40px ;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    margin: 0 5px 0 5px;
+    
+}
+.content img{
+    width: 50%;
+    height: 400px;
+    margin: 60px;
+    padding-left: 20%;
+    border-bottom-left-radius: 20px;
+    
+}
+.content .inner-content{
+ position: absolute;
+ top: 30%;
+ left: 40%;
+ background-color: whitesmoke;
+ box-shadow: 0px 0px black;
+ transform: translate(20%,-20%);
+ text-align: center;
+
+}
+
+
+.recipe-details{
+    width: 70%;
+    margin:2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ingredients,.instructions{
+    flex-basis: 50%;
+    text-align: justify;
+}
+.ingredients h4{
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+.video{
+    width: 80%;
+    margin: 3rem auto;
+}
+.indexContainer{
+    display: flex;
+    margin: 2.5rem 0;
+}
+.numBox {
+    width: 50px;
+    height: 40px;
+    background-color: #030e12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 5px 0 5px;
+}
